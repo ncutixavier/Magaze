@@ -284,6 +284,7 @@ a#mobile_menu {
 .templatemo-home-image-container {
   display: inline-block;
   position: relative;
+  width: 430px;
 }
 .templatemo-image-overlay {
   background: rgba(51,51,51,0.9); /* OLD - iOS 6-, Safari 3.1-6 */
@@ -368,7 +369,7 @@ h3.templatemo-service-title {
 
 /* 5. Contact & Footer Styles
 -------------------------------------*/
-form { width: 430px; }
+.c-form { width: 430px; }
 .form-control {
   background: #1f1d1a;
   border: 1px solid #865701;
@@ -564,6 +565,10 @@ have a fixed width and height (but it's not required).
     margin-right: auto;
   }
   .templatemo-copyright-container { padding-left: 0; }
+
+  .templatemo-home-image-container{
+    width: auto!important;
+  }
 }
 
 @media screen and (max-width: 400px) {
