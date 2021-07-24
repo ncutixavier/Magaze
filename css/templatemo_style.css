@@ -571,6 +571,10 @@ have a fixed width and height (but it's not required).
   }
 }
 
+textarea {
+  resize: none;
+}
+
 @media screen and (max-width: 400px) {
   .templatemo-black-bg { padding: 15px; }
   .templatemo-brown-rectangle-bg { padding: 5px; }
